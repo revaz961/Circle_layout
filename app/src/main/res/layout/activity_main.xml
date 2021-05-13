@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#212529">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintWidth_percent="0.95"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/circle1"
+        />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintWidth_percent="0.45"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/circle1"
+        />
+
+    <Button
+        android:id="@+id/btnMain"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintWidth_percent="0.24"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:backgroundTint="#00000087"
+        android:background="@drawable/android"
+        />
+
+    <ImageButton
+        android:id="@+id/btnAngular"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintWidth_percent="0.15"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintCircle="@id/btnMain"
+        app:layout_constraintCircleAngle="22"
+        app:layout_constraintCircleRadius="130dp"
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/angular"/>
+
+    <ImageButton
+        android:id="@+id/btnCPlus"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintWidth_percent="0.15"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintCircle="@id/btnMain"
+        app:layout_constraintCircleAngle="67"
+        app:layout_constraintCircleRadius="130dp"
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/cplus"
+        />
+
+    <ImageButton
+        android:id="@+id/btnCSharp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintWidth_percent="0.15"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintCircle="@id/btnMain"
+        app:layout_constraintCircleAngle="112"
+        app:layout_constraintCircleRadius="130dp"
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/c_sharp" />
+
+    <ImageButton
+        android:id="@+id/btnReact"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintWidth_percent="0.15"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintCircle="@id/btnMain"
+        app:layout_constraintCircleAngle="157"
+        app:layout_constraintCircleRadius="130dp"
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/react" />
+
+    <ImageButton
+        android:id="@+id/btnJava"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintWidth_percent="0.15"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintCircle="@id/btnMain"
+        app:layout_constraintCircleAngle="202"
+        app:layout_constraintCircleRadius="130dp"
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/java" />
+
+    <ImageButton
+        android:id="@+id/btnPython"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintWidth_percent="0.15"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintCircle="@id/btnMain"
+        app:layout_constraintCircleAngle="247"
+        app:layout_constraintCircleRadius="130dp"
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/python" />
+
+    <ImageButton
+        android:id="@+id/btnNodeJS"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintWidth_percent="0.15"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintCircle="@id/btnMain"
+        app:layout_constraintCircleAngle="292"
+        app:layout_constraintCircleRadius="130dp"
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/nodejs" />
+
+    <ImageButton
+        android:id="@+id/btnKotlin"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintWidth_percent="0.15"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintCircle="@id/btnMain"
+        app:layout_constraintCircleAngle="337"
+        app:layout_constraintCircleRadius="130dp"
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/kotlin"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
